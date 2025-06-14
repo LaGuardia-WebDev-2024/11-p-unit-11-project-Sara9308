@@ -1,9 +1,7 @@
 body {
-  background-color: aliceblue;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
+
+background-color: rgb(55, 67, 136);
+  
 /*   margin-top: 10%; */
   font-family: Georgia, serif;
 }
@@ -15,12 +13,17 @@ html{
 
 #myCanvas {
   border: 1px solid black;
+    background-image: linear-gradient(
+  #3f57b0,
+  #b867d3,
+  #e84c44,
+  #e88744,
+  #e7cf57);
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
@@ -34,14 +37,7 @@ html{
 }
 
 h2{
-  color: black;
+  color: white;
 /*   font-size: 10px; */
 }
 
-#start{
-  text-align: left;
-}
-
-#end{
-  text-align: right;
-}
